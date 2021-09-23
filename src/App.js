@@ -1,3 +1,4 @@
+import Header from './components/Header'
 
 function App() {
   const channel = "Website Tutorial Reactjs";
@@ -6,6 +7,7 @@ function App() {
 
   return (
     <div>
+      <Header />
       <h1>Welcome to {channel}</h1>
       <h2>{age * 2}</h2>
       <a href={link}>My Website</a>
